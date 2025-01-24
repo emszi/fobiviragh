@@ -1,7 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
 <head>
-<title>Szecsi.core</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Szép Weboldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            background-image: url('https://via.placeholder.com/1600x900.png?text=Szép+Hátter+Kép');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #45a049;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        .content img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .link {
+            color: #ff6347;
+        }
+    </style>
 </head>
 <body>
-<h1>FU ME MANGER</h1>
-<div>Nem birom maa<br>Leccivees<br><b>Engedj maa hazaaa</b></div>
+    <header>
+        <h1>Üdvözlünk a Szép Weboldalon!</h1>
+        <nav>
+            <a href="#home">Kezdőlap</a>
+            <a href="#about">Rólunk</a>
+            <a href="#contact">Kapcsolat</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Mi a kedvenc hobbim? A fotózás!</h2>
+        <p>A fotózás számomra egy olyan művészeti forma, amely képes megragadni a pillanat szépségét. Szeretek fényképeket készíteni a természetben és az emberekről is. Ha szeretnél többet tudni róla, nézd meg a fotózás Wikipédiás oldalát!</p>
+        <a href="https://hu.wikipedia.org/wiki/Fot%C3%B3z%C3%A1s" target="_blank" class="link">Tudj meg többet a fotózásról a Wikipédián!</a>
+        <img src="https://via.placeholder.com/800x400.png?text=Fotózás+Példa" alt="Fotózás Példa">
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Szép Weboldal. Minden jog fenntartva.</p>
+    </footer>
 </body>
+</html>
